@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.nanbeiyule.game",
+      "sha256_cert_fingerprints": [
+        "2D:99:2E:0B:13:21:BA:EA:3A:55:D5:9A:6D:06:DB:57:F2:F1:9A:43:73:AF:C9:80:04:6D:22:63:22:D3:CE:1F"
+      ]
+    }
+  }
+]
