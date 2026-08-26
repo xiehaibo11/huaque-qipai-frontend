@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router'
     <header class="legal-header">
       <p class="eyebrow">TERMS OF SERVICE</p>
       <h1>南北娱乐服务协议</h1>
-      <p>更新日期：2026 年 7 月 28 日　生效日期：2026 年 7 月 28 日</p>
+      <p>更新日期：2026 年 8 月 23 日　生效日期：2026 年 8 月 23 日</p>
     </header>
 
     <div class="legal-body">
@@ -18,7 +18,7 @@ import { RouterLink } from 'vue-router'
       </nav>
 
       <p>
-        欢迎使用南北娱乐。请您在注册、登录或使用南北娱乐应用、官网及相关服务前，认真阅读并充分理解本协议。
+        欢迎使用南北娱乐。南北娱乐是本服务的运营方（以下称“我们”）。请您在注册、登录或使用南北娱乐应用、官网及相关服务前，认真阅读并充分理解本协议。
       </p>
 
       <p class="legal-callout">
@@ -29,7 +29,7 @@ import { RouterLink } from 'vue-router'
       <section>
         <h2>一、适用范围与协议确认</h2>
         <p>
-          本协议是您与南北娱乐服务提供方之间关于使用本服务的约定，并与
+          本协议是您与南北娱乐之间关于使用本服务的约定，并与
           <RouterLink to="/privacy">《隐私政策》</RouterLink>
           及应用内依法公示的具体功能规则共同构成服务规则。具体功能存在单独规则的，单独规则与本协议一并适用。
         </p>

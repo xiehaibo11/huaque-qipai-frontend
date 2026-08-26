@@ -97,6 +97,23 @@ describe('public review routes', () => {
     expect(wrapper.find('.legal-body a[href="/privacy"]').exists()).toBe(true)
   })
 
+  it.each(['/terms', '/privacy'])(
+    'uses only the Nanbei operator identity on %s',
+    async (path) => {
+      await router.push(path)
+      await router.isReady()
+
+      const wrapper = mount(App, {
+        global: {
+          plugins: [router],
+        },
+      })
+
+      expect(wrapper.text()).toContain('南北娱乐')
+      expect(wrapper.text()).not.toContain('杭州边锋')
+    },
+  )
+
   it('explains the adult-only guardianship position without overstating controls', async () => {
     await router.push('/guardianship')
     await router.isReady()
